@@ -279,6 +279,10 @@ body {
   color: #333;
   background-color: #04153B;
 }
+
+.update-items {
+  color: #fff;
+}
 input,
 button,
 select,
