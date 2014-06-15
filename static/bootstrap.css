@@ -280,9 +280,15 @@ body {
   background-color: #04153B;
 }
 
-.update-items {
+.update-items{ 
   color: #fff;
 }
+
+.update-items a{ 
+  color: #F1DE85;
+  text-decoration: underline;
+}
+
 input,
 button,
 select,
