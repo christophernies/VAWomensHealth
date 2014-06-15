@@ -28,7 +28,14 @@
   </head>
 
   <body>
-
+    <div id="fb-root"></div>
+    <script>(function(d, s, id) {
+      var js, fjs = d.getElementsByTagName(s)[0];
+      if (d.getElementById(id)) return;
+      js = d.createElement(s); js.id = id;
+      js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.0";
+      fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));</script>
     <div class="container">
       <div class="header">
         <center>
@@ -77,6 +84,18 @@
         </div>
       </div>
     </span>
+    <hr>
+    <div class="row marketing">
+      <div class="col-lg-6">
+        <center>
+          <a class="twitter-timeline" data-dnt="true" href="https://twitter.com/ErieVAMC" data-widget-id="478000871163187200">Tweets by @ErieVAMC</a>
+          <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+        </center>
+      </div>
+      <div class="col-lg-6">
+        <div class="fb-like-box" data-href="https://www.facebook.com/VAMCErie" data-width="320" data-height="600" data-colorscheme="dark" data-show-faces="false" data-header="true" data-stream="true" data-show-border="true"></div>
+      </div>
+    </div>
 
       <div class="footer">
       </div>
