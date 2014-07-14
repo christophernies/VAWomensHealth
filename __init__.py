@@ -7,9 +7,13 @@ app = Flask(__name__)
 def index(name=None):
     return render_template('index.html', name=name)
 
-@app.route('/feeds')
-def feeds():
-    return render_template('feeds.html')
+@app.route('/apps')
+def apps():
+    return render_template('apps.html')
+
+@app.route('/social')
+def social():
+    return render_template('social.html')
 
 if __name__ == '__main__':
     app.run(debug=True)
