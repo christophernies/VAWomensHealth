@@ -1,0 +1,115 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="shortcut icon" href="../../assets/ico/favicon.ico">
+
+    <title>U.S. Department of Veterans Affairs</title>
+
+    <!-- Bootstrap core CSS -->
+    <link rel=stylesheet type=text/css href="{{ url_for('static', filename='css/bootstrap.css') }}">
+
+    <!-- Custom styles for this template -->
+    <link rel=stylesheet type=text/css href="{{ url_for('static', filename='css/jumbotron-narrow.css') }}">
+
+    <!-- Just for debugging purposes. Don't actually copy this line! -->
+    <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+  <body>
+    <div id="fb-root"></div>
+    <script>(function(d, s, id) {
+      var js, fjs = d.getElementsByTagName(s)[0];
+      if (d.getElementById(id)) return;
+      js = d.createElement(s); js.id = id;
+      js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.0";
+      fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));</script>
+    <div class="container">
+      <div class="header">
+        <center>
+        <ul class="nav nav-pills pull-right">
+          <li class="active"><a href="#">Home</a></li>
+          <li><a href="http://www.erie.va.gov/">Erie VA Medical Center</a></li>
+          <li><a href="http://www.va.gov/health/">Veterans Health</a></li>
+          <li><a href="http://www.benefits.va.gov/">Veterans Benefits</a></li>
+          <li><a href="http://www.va.gov/landing2_contact.htm">Contact Information</a></li>
+        </ul>
+        <h3 class="text-muted">Veteran Women's Health Resources</h3></center>
+      </div>
+
+      <div class="jumbotron">
+        <img src="{{ url_for('static', filename='VA-Seal.png') }}">
+        <p class="lead">Cras justo odio, dapibus ac facilisis in, egestas eget quam. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
+      </div>
+    
+    <span class="update-items">
+      <div class="row marketing">
+        <div class="col-lg-6">
+
+          <h4><a href="http://www.womenshealth.va.gov/">Women Veterans Health Care - Main Page</a></h4>
+          <p>Did you know that women are the fastest growing group within the Veteran population? Learn more about the changing face of women Veterans and what VA is doing to meet their health care needs.</p>
+
+
+          <h4><a href="http://www.va.gov/womenvet/">Center for Women Veterans</a></h4>
+          <p>Female Veterans have a new resource for information on VA health care and benefits: 1-855-VA-WOMEN.</p>
+
+          <h4><a href="https://www.myhealth.va.gov/maint.html">MyHealtheVet - VA Healthcare Portal</a></h4>
+          <p>My HealtheVet is VA’s online personal health record. It was designed for Veterans, active duty Servicemembers, their dependents and caregivers. My HealtheVet helps you partner with your health care team. It provides you opportunities and tools to make informed decisions and manage your health care.</p>
+
+        </div>
+
+        <div class="col-lg-6">
+
+          <h4><a href="http://www.erie.va.gov/">Erie VA Main Page</a></h4>
+          <p>VAMC Erie provides health care services to veterans in northwestern Pennsylvania, Ashtabula County Ohio, and western Chautauqua County New York.</p>
+
+          <h4><a href="http://www.erie.va.gov/services/women/index.asp">Erie VA Health Care for Women Veterans - Services</a></h4>
+          <p>Our Women Veterans Program Manager advises and advocates for women veterans. She can help coordinate all the services you may need, from primary care to specialized care for chronic conditions or reproductive health.</p>
+
+          <h4><a href="http://www.erie.va.gov/contact/phone_directory.asp">Erie VA Phone Directory</a></h4>
+          <p>Need specific information? The Erie VA's Phone Directory lists direct lines to all of the Erie VA departments.</p>
+
+        </div>
+      </div>
+    </span>
+    <hr>
+    <div class="row marketing">
+      <div class="col-lg-6">
+        <center>
+          <a class="twitter-timeline" data-dnt="true" href="https://twitter.com/ErieVAMC" data-widget-id="478000871163187200">Tweets by @ErieVAMC</a>
+          <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+        </center>
+      </div>
+      <div class="col-lg-6">
+        <center>
+        <div class="fb-like-box" data-href="https://www.facebook.com/VAMCErie" data-width="320" data-height="600" data-colorscheme="dark" data-show-faces="false" data-header="true" data-stream="true" data-show-border="true">
+        </div>
+      </div>
+        </center>
+    </div>
+
+      <div class="footer">
+      </div>
+
+    </div> <!-- /container -->
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script type="text/javascript" src="{{ url_for('static', filename='bootstrap-alert.js') }}"></script>
+  </body>
+</html>
+
