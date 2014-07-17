@@ -52,7 +52,7 @@ body {
 }
 
 .carousel img {
-      position: absolute;
+      position: inherit;
       top: 0;
       left: 0;
       min-width: none;
@@ -60,7 +60,7 @@ body {
       max-width: none;
     }
 .carousel-inner > .item > img {
-  position: absolute;
+  position: inherit;
   top: 0;
   left: 0;
   min-width: 100%;
