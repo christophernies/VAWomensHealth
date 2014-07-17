@@ -5430,11 +5430,11 @@ button.close {
       position: absolute;
       top: 0;
       left: 0;
-      min-width: 100%;
+      min-width: none;
       height: 500px;
       max-width: none;
     }
-    
+
 .carousel-inner {
   position: relative;
   width: 100%;
